@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inicio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <script src="js/index.js"></script>
+
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" id="icon">
+                    <i class="fab fa-github ps-1">
+                        <img src="img/logo.png" alt="" width="15%" />
+                    </i>
+                </a>
+                <div class="navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item" >
+                            <a class="nav-link" href="#"></a>
+                        </li>
+                        <!--- <li class="nav-item">
+                                 <center><a class="nav-link" href="#">Catalogo</a></center>
+                             </li>
+                             <li class="nav-item">
+                                 <center><a class="nav-link" href="#">¿Quiénes somos?</a></center>
+                             </li>
+                             <li class="nav-item">
+                                 <center><a class="nav-link" href="#">Contacto</a></center>
+                             </li>
+                             <li class="nav-item"> -->
+
+
+                        <li class="nav-item">
+                        <center><a class="nav-link" href="login.html" id="et_usuario"></a></center>
+                        </li>
+                        <li class="nav-item">
+                        <center><a class="nav-link" href="#" id="user-saldo"></a></center>
+                        </li>
+                        <li class="nav-item">
+                        <center><a class="nav-link" href="index.html" id="user-cerrar"></a></center>
+                        </li>
+                        <li class="nav-item">
+                        <center><a class="nav-link" href="login.html" id="et_inicio">Iniciar sesión</a></center>
+                        </li>
+
+
+                    </ul>
+                    <form class="me-3" id="frm_buscar">
+                        <div class="form-white input-group" style="width: 250px;">
+                            <input type="search" class="form-control rounded" id="txt_buscar" placeholder="Buscar vestido"
+                                   aria-label="Search" aria-describedby="search-addon" />
+                            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">buscar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
+
+
+        <div class="container-fluid">
+            <center><h1><b>Alquiler de Vestidos Bell</b></h1></center>
+            <center><h5>Los mejores diseños disponibles para ti</h5></center>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Tipo</th>
+                        <th scope="col">Color</th>
+                        <th scope="col">Diseñador</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Talla</th>
+                        <th scope="col">Año</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Novedad</th>
+                    </tr>
+                </thead>
+                <tbody id="vestidos-tbody">
+                    
+                </tbody>
+            </table>
+
+        </div>
+    </body>
+</html>
