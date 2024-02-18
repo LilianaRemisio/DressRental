@@ -1,0 +1,40 @@
+# Creado por https://www.toptal.com/developers/gitignore/api/java,netbeans
+# Editar en https://www.toptal.com/developers/gitignore?templates=java,netbeans
+
+###Java ###
+# Archivo de clase compilado
+*.clase
+
+# Archivo de registro
+*.registro
+
+# Archivos BlueJ
+*.ctxt
+
+# Herramientas móviles para Java (J2ME)
+.mtj.tmp/
+
+# Archivos de paquete #
+*.frasco
+*.guerra
+*.nar
+*.oreja
+*.cremallera
+*.tar.gz
+*.rar
+
+# registros de fallos de la máquina virtual, consulte http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+repetición_pid*
+
+### NetBeans ###
+**/nbproject/privado/
+**/nbproject/Makefile-*.mk
+**/nbproject/Paquete-*.bash
+construir/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Fin de https://www.toptal.com/developers/gitignore/api/java,netbeans
